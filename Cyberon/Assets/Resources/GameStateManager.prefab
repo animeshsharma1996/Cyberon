@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7249315519149278833
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7249315519149278846}
+  - component: {fileID: 7249315519149278832}
+  m_Layer: 0
+  m_Name: GameStateManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7249315519149278846
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7249315519149278833}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7249315519149278832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7249315519149278833}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b22382968326224cb320fce046e5520, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CameraSensitivity: 100
+  isInit: 0
+  sceneIndex: -1
+  reloadGame: 0
+  score: 0
+  circuitMaterials:
+  - {fileID: 2100000, guid: 356b3373ed588e1448f20736320bb943, type: 2}
+  - {fileID: 2100000, guid: 7457f69a08ebd174290b28df9914677d, type: 2}
+  - {fileID: 2100000, guid: a81ead646619f7a40a358d16d4021eac, type: 2}
+  wallMaterial: {fileID: 2100000, guid: 27ab076f64664d643914703a03cca88b, type: 2}
+  wallsHuntColor: {r: 1.4980392, g: 0.030274248, b: 0, a: 1}
+  wallsStealthColor: {r: 0, g: 0.9411765, b: 1.4980392, a: 1}
+  wallsBorderMaterials:
+  - {fileID: 2100000, guid: bd935a0712e28c341b4bc0a3e87d54fa, type: 2}
+  wallsBorderStealthColor: {r: 0, g: 0.47058824, b: 0.7490196, a: 1}
+  wallsBorderHuntColor: {r: 0.7490196, g: 0, b: 0.022000723, a: 1}
+  playerStats: {fileID: 11400000, guid: 2b87f0dc3ef65384d932081614c9dd07, type: 2}
+  inMenu: 0
+  inCredits: 0
